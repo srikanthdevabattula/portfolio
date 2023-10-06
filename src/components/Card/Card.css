@@ -1,0 +1,50 @@
+.card{
+   
+    height: 15rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    background: rgba(42, 39, 39, 0.030);
+    border: 7px solid var(--orangeCard);
+    box-shadow: var(--boxShadow);
+    border-radius: 20px;
+    padding: 0px 26px 2px 26px;
+    width: 10rem;
+}
+.card span:nth-of-type(1){
+    /* color: var(--gray); */
+    /* font-size: 16px; */
+    font-weight: bold;
+    margin-top: 6rem;
+}
+.card span:nth-of-type(2){
+    color: var(--gray);
+    font-size: 16px;
+    margin-top: 8rem;
+}
+.card img{
+    transform: scale(0.6);
+    margin-bottom: -2rem;
+}
+.c-button{
+    margin-top: 12rem;
+    background: white;
+    box-shadow: 0px 19px 6opx rgba(0, 0, 0, 0.08);
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #5290fd;
+}
+.c-button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media screen and (max-width: 580px){
+    .card{
+      /* width: auto; */
+    }
+  }
